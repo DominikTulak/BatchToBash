@@ -1,0 +1,14 @@
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\BatchToBashConsole.exe.config
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\BatchToBashConsole.exe
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\BatchToBashConsole.pdb
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\LiteGuard.dll
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\PrimS.Telnet.NetStandard.dll
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\Renci.SshNet.dll
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\LiteGuard.xml
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\PrimS.Telnet.NetStandard.xml
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\bin\Debug\Renci.SshNet.xml
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\obj\Debug\BatchToBashConsole.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\obj\Debug\BatchToBashConsole.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\obj\Debug\BatchToBashConsole.csproj.CopyComplete
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\obj\Debug\BatchToBashConsole.exe
+C:\Users\Admin\source\repos\BatchToBashConsole\BatchToBashConsole\obj\Debug\BatchToBashConsole.pdb
