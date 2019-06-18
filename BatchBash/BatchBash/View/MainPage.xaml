@@ -6,11 +6,12 @@
              x:Class="BatchBash.MainPage">
 
     <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
-        <Label Text="{Binding Nadpis}" />
+        <Label Text="{Binding Nadpis}" FontSize="Large" HorizontalOptions="Center"/>
         <Button Text="Práce se sítí" Command="{Binding ChangeViewNetworking}" />
         <Button Text="Práce se soubory" Command="{Binding ChangeViewFiles}" />
         <Button Text="Práce s uživateli" Command="{Binding ChangeViewAccounts}" />
         <Button Text="Práce s aplikacemi" Command="{Binding ChangeViewPrograms}" />
+        <Label Text="Dominik Tulak" FontSize="Micro" HorizontalOptions="End"/>
     </StackLayout>
 
 </ContentPage>

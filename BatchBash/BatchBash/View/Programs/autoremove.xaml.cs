@@ -7,21 +7,17 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace BatchBash.View
+namespace BatchBash.View.Programs
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class programs : ContentPage
+	public partial class autoremove : ContentPage
 	{
         public BatchBash.MainPage sender;
-        public programs(MainPage sender)
+        public autoremove(BatchBash.MainPage sender)
         {
             InitializeComponent();
             this.sender = sender;
-            BindingContext = new BatchBash.ViewModel.programs(sender);
-        }
-        public void ChangeView(Xamarin.Forms.Page newView)
-        {
-            Navigation.PushModalAsync(newView);
+            BindingContext = new ViewModel.Programs.autoremove(sender);
         }
     }
 }
