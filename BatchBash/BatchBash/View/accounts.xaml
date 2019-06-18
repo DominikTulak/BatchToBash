@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatchBash.View.accounts">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="{Binding Nadpis}" FontSize="Large" HorizontalOptions="Center"/>
+            <Button Text="(su) Přihlásit se" Command="{Binding ChangeViewsu}" />
+            <Button Text="(exit) Odhlásit se" Command="{Binding ChangeViewexit}" />
+            <Button Text="(passwd) Změnit heslo" Command="{Binding ChangeViewpasswd}" />
+            <Button Text="(adduser) Přidat uživatele" Command="{Binding ChangeViewadduser}" />
+            <Button Text="(deluser) Odstranit uživatele" Command="{Binding ChangeViewdeluser}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

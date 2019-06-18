@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatchBash.View.Networking.ping">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center">
+                <Label Text="(ping) Test odezvy" FontSize="Large"/>
+                <Entry Placeholder="Cílový host" Text="{Binding inputText}"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="End" HorizontalOptions="Center">
+                <Label Text="{Binding output}" FontSize="Large"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

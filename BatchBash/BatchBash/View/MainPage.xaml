@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BatchBash"
+             xmlns:ViewModel="clr-namespace:BatchBash;assembly=BatchBash.MainPage"
+             x:Class="BatchBash.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="{Binding Nadpis}" />
+        <Button Text="Práce se sítí" Command="{Binding ChangeViewNetworking}" />
+        <Button Text="Práce se soubory" Command="{Binding ChangeViewFiles}" />
+        <Button Text="Práce s uživateli" Command="{Binding ChangeViewAccounts}" />
+        <Button Text="Práce s aplikacemi" Command="{Binding ChangeViewPrograms}" />
+    </StackLayout>
+
+</ContentPage>

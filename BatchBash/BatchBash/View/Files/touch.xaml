@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatchBash.View.Files.touch">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center">
+                <Label Text="(Touch) Vytvořit soubor" FontSize="Large"/>
+                <Entry Placeholder="Název složky (a cesta)" Text="{Binding inputText}"/>
+                <Label Text="Spustit jako root" FontSize="Medium" />
+                <Switch IsToggled="{Binding sudo}"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="End" HorizontalOptions="Center">
+                <Label Text="{Binding output}" FontSize="Large"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

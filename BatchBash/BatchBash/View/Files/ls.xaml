@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatchBash.View.Files.ls">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand" HorizontalOptions="Center">
+                <Label Text="(ls) Zobrazit soubory" FontSize="Large"/>
+                <Label Text="Dlouhý formát" FontSize="Medium" />
+                <Switch IsToggled="{Binding longFormat}"/>
+                <Label Text="Ukázat skryté soubory" FontSize="Medium" />
+                <Switch IsToggled="{Binding hiddenFiles}"/>
+                <Label Text="Hledat rekurzivně" FontSize="Medium" />
+                <Switch IsToggled="{Binding recursive}"/>
+                <Label Text="Převést na co největší jednotky" FontSize="Medium" />
+                <Switch IsToggled="{Binding humanReadable}"/>
+            </StackLayout>
+            <StackLayout VerticalOptions="End" HorizontalOptions="Center">
+                <Label Text="{Binding output}" FontSize="Large"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

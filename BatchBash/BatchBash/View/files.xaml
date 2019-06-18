@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BatchBash.View.files">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+            <Label Text="{Binding Nadpis}" FontSize="Large" HorizontalOptions="Center"/>
+            <Button Text="(ls) Zobrazit soubory" Command="{Binding ChangeViewls}" />
+            <Button Text="(mkdir) Vytvořit složku" Command="{Binding ChangeViewmkdir}" />
+            <Button Text="(cd) Přejít do složky" Command="{Binding ChangeViewcd}" />
+            <Button Text="(nano) Textový editor" Command="{Binding ChangeViewnano}" />
+            <Button Text="(touch) Vytvořit soubor" Command="{Binding ChangeViewtouch}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
